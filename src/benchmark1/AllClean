@@ -1,0 +1,9 @@
+#!/bin/bash
+# Erase all .vtu files
+rm -f ./data/*.vtu
+# Erase all .json files
+rm -f ./data/*.json
+# Erase all .msh files
+rm -f ./data/*.msh
+
+

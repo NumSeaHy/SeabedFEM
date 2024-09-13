@@ -1,0 +1,10 @@
+#!/bin/bash
+# Erase all .vtu files
+rm -f ./data_freq/*.vtu
+# Erase all .json files
+rm -f ./data_freq/*.json
+# Erase all .msh files
+rm -f ./data_freq/*.msh
+
+
+

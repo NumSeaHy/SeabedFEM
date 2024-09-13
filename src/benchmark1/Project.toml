@@ -1,0 +1,10 @@
+name = "problem_A"
+uuid = "5e513cd3-34d4-457e-8a40-8023a13f0ec2"
+authors = ["pablo <p.rubialy@udc.es>"]
+version = "0.1.0"
+
+[deps]
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Gmsh = "705231aa-382f-11e9-3f0c-b7cb4346fdeb"
+Gridap = "56d4f2e9-7ea1-5844-9cf6-b9c51ca7ce8e"
+GridapGmsh = "3025c34a-b394-11e9-2a55-3fee550c04c8"
