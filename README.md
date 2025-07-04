@@ -20,7 +20,7 @@ The repository contains a solver that computes the acoustic response of various 
 <hr style="border:1px"> 
 
 ## Description
-The solver and all the benchmarks cases follows the following framework:
+The solver and all the benchmarks cases follow the following framework:
 
 <p align="center">
   <img width="500" height="600" src="resources/workflow.png">
@@ -31,9 +31,9 @@ The solver and all the benchmarks cases follows the following framework:
 
 - During the Pre-Process stage, the user needs to configure the `Configuration.jl` file. This file contains all the parameters required to define the problem to be solved. Once the parameters are set, the `Configuration.jl` file is imported by `Mesh.jl`, which generates the necessary mesh for the simulation.
 
-- During the solver stage, the generated `mesh.msh` and the `Configuration.jl` are imported into `Run.jl`file, which computes the solution to the problem using [Gridap](https://github.com/gridap/Gridap.jl)  a Julia Finite Element library. Additionally, the user can compute the frequency response of the problem of interest in parallel by leveraging [Gridap](https://github.com/gridap/Gridap.jl) alongside Distributed, a native Julia library for parallel computations.
+- During the solver stage, the generated `mesh.msh` and the `Configuration.jl` are imported into `Run.jl`file, which computes the solution to the problem using [Gridap](https://github.com/gridap/Gridap.jl),  a Julia Finite Element library. Additionally, the user can compute the frequency response of the problem of interest in parallel by leveraging [Gridap](https://github.com/gridap/Gridap.jl) alongside Distributed, a native Julia library for parallel computations.
 
-- During the Post-Process stage, the simulation results are exported to `.vtu` files, which are compatible with ParaView software for visualizing the results. For more professional plotting in 2D cases, the `.vtu` can be exported tu NumPy objects by using [Meshio](https://github.com/nschloe/meshio) and then plotted using Matplotlib.
+- During the Post-Process stage, the simulation results are exported to `.vtu` files, which are compatible with ParaView software for visualizing the results. For more professional plotting in 2D cases, the `.vtu` can be exported to NumPy objects by using [Meshio](https://github.com/nschloe/meshio) and then plotted using Matplotlib.
 
 
 <hr style="border:1px">
@@ -49,7 +49,7 @@ git clone https://github.com/pablorubial/SeabedFEM.git
 ```
 
 
-## Acknoledgments
+## Acknowledgments
 
 <p align="left"">
 <img src="resources/CITMAGA-color.png" width="100" height = 50 style="margin-right: 20px;" />
