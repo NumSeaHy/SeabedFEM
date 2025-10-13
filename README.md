@@ -49,13 +49,10 @@ git clone https://github.com/pablorubial/SeabedFEM.git
 ```
 
 
-## Acknowledgments
+## CRediT authorship contribution statement
+**Pablo Rubial**: Methodology, Software, Writing. **Andrés Prieto**: Conceptualization, Methodology, Review, Supervision, Funding acquisition.
 
-<p align="left"">
-<img src="resources/CITMAGA-color.png" width="100" height = 50 style="margin-right: 20px;" />
-  <img src="resources/udc_logo.png" width="200" style="margin-right: 20px;" />
-  <img src="resources/ministery_logo.png" width="300" height = 50
-   />
-</p>
+## License
+ <p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.png?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.png?ref=chooser-v1"></a></p> 
 
-<hr style="border:1px"> 
+<img src="resources/banner.png" alt="EU Flag"  width="500"/>
